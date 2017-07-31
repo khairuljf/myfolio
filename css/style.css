@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2016, 2:10:03 PM
+    Author     : Khairul Islam
+*/
+
+
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #7e8287;
+}
+.fix{
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;padding: 0;list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    
+}
+p{
+    margin: 0;
+}
+
+.clm{
+    width: 1170px;
+    margin: 0  auto;
+}
+
+.header_aread{
+    background: #02918c;
+    min-height: 60px;
+    
+}
+.header{
+    
+    
+    
+}
+.logo{}
+.logo a h1{ color: #fff;font-size: 26px;
+           font-weight: 900; margin-top: 15px; }
+.logo a h1 span{color:#cfc91d;}
+.menu{}
+.menu ul{}
+.menu ul li{display: inline; }
+.menu ul li a{font-size: 12px; font-weight: 900;
+             color: #fff;
+    padding: 20px;
+    display: inline-block;
+}
+.slider_area{background: url(../images/slider.png) no-repeat scroll center center / cover}
+.slider_text{ color: #fff;text-align: center; padding: 200px 0; }
+.slider_text h4{font-size: 30px;}
+.slider_text h1{ font-size: 68px; font-weight: 900; letter-spacing: 31px;}
+.slider_text p{font-size: 18px;}
+.slider_text a{ background: #cfc91d;display: inline-block;padding: 8px 15px;
+               color: #0b1016;font-weight: 900;font-size: 14px; margin-top: 120px; position: relative;}
+.slider_text a:before {
+    position: absolute;
+    color: #fff;
+    transform: rotate(90deg);
+    content: "}";
+    font-weight: 200;
+    font-size: 100px;
+    margin-top: -140px;
+    left: 41%;
+}
+ 
+.about_area{ padding:80px  0; }
+.about{}
+.about_title{ text-align: center;padding: 0 180px; margin-bottom: 30px; }
+.about_title h1{ color: #02918c; font-weight: 900; font-size: 46px; margin-bottom: 35px; padding-bottom: 30px; position: relative}
+.about_title h1:before{ 
+    position: absolute;
+        background: url(../images/about_bg.png) no-repeat scroll 0 0 rgba(0,0,0,0); 
+        content: "";
+        width: 160px;
+        height: 10px;
+        bottom: 0;
+            left: 50%;
+    margin-left: -80px;
+    
+        
+}
+.about_title p{}
+.about_title p span{ font-weight: 900; font-size: 23px; color: #7e8287}
+
+
+.about_list{}
+.about_list div:last-child { border: none;}
+.about_single_list img{margin-bottom: 15px; }
+.about_single_list{ text-align: center; border-right: 1px solid #d9dbdb; width: 292px; padding: 0 22px; }
+.about_single_list h3{ color: #7e8287;font-weight: 900; font-size: 16px; padding-bottom: 15px; }
+.about_single_list p{}
+
+
+
+.service_area{ background: #f0f0e8; padding: 60px 0;position: relative}
+.service_bg{position: absolute; width: 50%;right: 0; top: 0; background: url(../images/service_bg.jpg) no-repeat scroll 0 0/cover; height: 100%; opacity: .3}
+.service{}
+.left_service{ width: 590px; padding: 0 30px; }
+.left_service div.about_title{
+    text-align: left; padding: 0;
+}
+.left_service div.about_title h1:before{
+    left: 0; margin: 0;
+}
+
+.single_service {
+    width: 264px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.single_service img{
+    margin-bottom: 15px;
+}
+.single_service h3{
+    margin-bottom: 15px;
+}
+.single_service p{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+.my_work_area{ padding: 70px 0; }
+.my_work{}
+.my_work div.about_title{}
+.my_work div.about_title h1{}
+.my_work div.about_title p{}
+.my_all_work{margin-top: 35px;}
+.list_work{width: 25%; position: relative}
+.list_work img{width: 100%;}
+.work_history{ position: absolute; top: 0; left: 0; width: 80%;
+ height: 80%; text-align: center; left: 10%; top: 10%; padding-top: 10%; 
+display: none;
+}
+.work_history h3, .work_history p{
+    position: relative;
+    z-index: 99;
+    color: #fff;
+    padding: 0 10%;
+    
+}
+.work_history h3{
+    margin-bottom: 15px;
+}
+.work_lay{
+    background: green; opacity: .85; position: absolute; top: 0;width: 100%;
+    height: 100%;
+}
+
+.list_work:hover .work_history{ display: block; cursor: pointer;}
+
+
+.contact_area{}
+.contact{}
+.contact div.about_title{}
+.contact div.about_title h1{}
+.contact div.about_title p{}
+
+.contact_form_area{ background: #0b0b0b; padding: 60px 0;}
+.contact_form{ text-align: center}
+.contact_form input[type=text], input[type=email]{
+    border: none;background: none;width: 600px; clear: both;display: block;
+    margin: 0 auto; text-align: center; padding: 10px; border-bottom: 1px solid gray; margin-bottom: 10px;
+    
+}
+
+.contact_form textarea{
+    width: 800px; margin: 0 auto; background: none; border: none; text-align: center; display: block; border-bottom: 1px solid gray; resize: none; height: 100px; margin-bottom: 10px;
+}
+
+.contact_form input[type=submit]{
+     background: #cfc91d;display: inline-block;padding: 8px 15px;
+               color: #0b1016;font-weight: 900;font-size: 14px; margin-top: 20px; border: none
+}
+
+.copy_area{
+    background: black;
+    font-size: 12px;
+    text-align:  center;
+}
+.copy_area p{
+    padding: 10px 0;
+}
